@@ -19,9 +19,9 @@ individual swatches for details and usage notes.
 
 ## Blues
 
-### Blue 100
+### Blue 50
 
-<ColorSwatch hue="blue" scale="100" />
+<ColorSwatch hue="blue" scale="50" />
 
 A super-super-light blue used in:
 
@@ -42,18 +42,22 @@ addition of transparency makes sense (default state of handles is
 opaque), and whether hover state is needed, given that the cursor also
 changes on hover.
 
-### Blue 200
+### Blue 100
 
-<ColorSwatch hue="blue" scale="200" />
+<ColorSwatch hue="blue" scale="100" />
 
 Used for background-color of select boxes. Also used in AudioNote
 component controls.
 
+### Blue 200
+
+<ColorSwatch hue="blue" scale="200" />
+
+Used as a background-color.
+
 ### Blue 300
 
 <ColorSwatch hue="blue" scale="300" />
-
-Used as a background-color.
 
 ### Blue 400
 
@@ -67,16 +71,12 @@ Used as a background-color.
 
 <ColorSwatch hue="blue" scale="600" />
 
-### Blue 700
-
-<ColorSwatch hue="blue" scale="700" />
-
 Used for fine lines and small objects in our primary blue (text, 
 stroke, icons). Also used in AudioNote component controls.
 
-### Blue 800
+### Blue 700
 
-<ColorSwatch hue="blue" scale="800" />
+<ColorSwatch hue="blue" scale="700" />
 
 ## Greys
 
