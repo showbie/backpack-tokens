@@ -11,74 +11,19 @@
 Here’s an overview of the full Showbie colour palette. View the
 individual swatches for details and usage notes.
 
+<ColorScale hue="grey" />
+
+<ColorScale hue="slate" />
+
 <ColorScale hue="blue" />
 
-<ColorScale hue="grey" />
+<ColorScale hue="green" />
+
+<ColorScale hue="yellow" />
 
 <ColorScale hue="red" />
 
-## Blues
-
-### Blue 50
-
-<ColorSwatch hue="blue" scale="50" />
-
-A super-super-light blue used in:
-
-- panel background for pending group invites
-- header background for post list headers (e.g. announcements-only, 
-  new live-update posts)
-- hover, active, and focused state of text box `.handle`, in
-  slightly transparentized form.
-
-#### Notes:
-
-Hover variant was decided during dev (not spec'd via PSD) so it could
-be easily expressed as SCSS function relative to main definition.
-
-Use in `.handle` states was decided during dev. Use here is not 
-closely coupled with the other two contexts. Debatable whether the 
-addition of transparency makes sense (default state of handles is 
-opaque), and whether hover state is needed, given that the cursor also
-changes on hover.
-
-### Blue 100
-
-<ColorSwatch hue="blue" scale="100" />
-
-Used for background-color of select boxes. Also used in AudioNote
-component controls.
-
-### Blue 200
-
-<ColorSwatch hue="blue" scale="200" />
-
-Used as a background-color.
-
-### Blue 300
-
-<ColorSwatch hue="blue" scale="300" />
-
-### Blue 400
-
-<ColorSwatch hue="blue" scale="400" />
-
-### Blue 500
-
-<ColorSwatch hue="blue" scale="500" />
-
-### Blue 600
-
-<ColorSwatch hue="blue" scale="600" />
-
-Used for fine lines and small objects in our primary blue (text, 
-stroke, icons). Also used in AudioNote component controls.
-
-### Blue 700
-
-<ColorSwatch hue="blue" scale="700" />
-
-## Greys
+## Grey
 
 ### Grey 50
 
@@ -200,6 +145,10 @@ Not a UI colour def, but the content colour for grey text and ink annotations.
 
 ## Slate
 
+### Slate 500
+
+<ColorSwatch hue="slate" scale="500" />
+
 ### Gull grey
 
 <ColorSwatch hue="slate" scale="xx5" />
@@ -209,7 +158,92 @@ Colour for grey buttons in the document previewer.
 Note that grey text labels should use a slightly darker grey not 
 defined here: `#748d97`.
 
-## Reds
+### Slate 600
+
+<ColorSwatch hue="slate" scale="600" />
+
+## Blue
+
+### Blue 50
+
+<ColorSwatch hue="blue" scale="50" />
+
+A super-super-light blue used in:
+
+- panel background for pending group invites
+- header background for post list headers (e.g. announcements-only, 
+  new live-update posts)
+- hover, active, and focused state of text box `.handle`, in
+  slightly transparentized form.
+
+#### Notes:
+
+Hover variant was decided during dev (not spec'd via PSD) so it could
+be easily expressed as SCSS function relative to main definition.
+
+Use in `.handle` states was decided during dev. Use here is not 
+closely coupled with the other two contexts. Debatable whether the 
+addition of transparency makes sense (default state of handles is 
+opaque), and whether hover state is needed, given that the cursor also
+changes on hover.
+
+### Blue 100
+
+<ColorSwatch hue="blue" scale="100" />
+
+Used for background-color of select boxes. Also used in AudioNote
+component controls.
+
+### Blue 200
+
+<ColorSwatch hue="blue" scale="200" />
+
+Used as a background-color.
+
+### Blue 300
+
+<ColorSwatch hue="blue" scale="300" />
+
+### Blue 400
+
+<ColorSwatch hue="blue" scale="400" />
+
+### Blue 500
+
+<ColorSwatch hue="blue" scale="500" />
+
+### Blue 600
+
+<ColorSwatch hue="blue" scale="600" />
+
+Used for fine lines and small objects in our primary blue (text, 
+stroke, icons). Also used in AudioNote component controls.
+
+### Blue 700
+
+<ColorSwatch hue="blue" scale="700" />
+
+## Green
+
+### Green 500
+
+<ColorSwatch hue="green" scale="500" />
+
+## Yellow
+
+### Yellow 100
+
+<ColorSwatch hue="yellow" scale="100" />
+
+### Yellow 200
+
+<ColorSwatch hue="yellow" scale="200" />
+
+### Yellow 500
+
+<ColorSwatch hue="yellow" scale="500" />
+
+## Red
 
 ### Red 100
 
@@ -217,13 +251,17 @@ defined here: `#748d97`.
 
 Used in AudioNote component during recording.
 
-### Red 200
+### Red 500
 
-<ColorSwatch hue="red" scale="200" />
+<ColorSwatch hue="red" scale="500" />
 
 Used for indicating destructive action, also in AudioNote component 
 during recording.
 
-### Red 300
+### Red 600
 
-<ColorSwatch hue="red" scale="300" />
+<ColorSwatch hue="red" scale="600" />
+
+### Red 800
+
+<ColorSwatch hue="red" scale="800" />
