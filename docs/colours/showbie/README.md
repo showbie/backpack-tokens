@@ -80,9 +80,9 @@ stroke, icons). Also used in AudioNote component controls.
 
 ## Greys
 
-### Grey 100
+### Grey 50
 
-<ColorSwatch hue="grey" scale="100" />
+<ColorSwatch hue="grey" scale="50" />
 
 Use case one: hover state for a white-background element
 
@@ -111,9 +111,9 @@ over a white background. This transparent version is used in some other
 places like the wrench menu items. Might consider standardizing on one of the
 two approaches.
 
-### Grey 200
+### Seashell†
 
-<ColorSwatch hue="grey" scale="200" />
+`#f0f0f0`
 
 Colour for background of popovers. Seems to be used pretty
 consistently.
@@ -124,9 +124,9 @@ field background in group invite wizard and modified to form the
 active state of buttons in the export grades popover. Those ones
 are a little arbitrary but look OK as is.
 
-### Grey 300
+### Grey 100
 
-<ColorSwatch hue="grey" scale="300" />
+<ColorSwatch hue="grey" scale="100" />
 
 Used as a background-color for the PostList form component.
 
@@ -135,15 +135,15 @@ should work out to `#f2f3f4`.
 
 `background-color: tint($color-porcelain, 33%);`
 
-### Grey 00
+### Mercury†
 
-<ColorSwatch hue="grey" scale="400" />
+<ColorSwatch hue="grey" scale="xx1" />
 
 Good old comment bubble colours.
 
-### Grey 500
+### Silver-sand-light†
 
-<ColorSwatch hue="grey" scale="500" />
+`#cac9cd`
 
 Used less widely and less consistently than color-secondary-dark.
 
@@ -165,9 +165,9 @@ this element.
 
 Sign-up TOC footer link is incorrect, should be `color-secondary-dark`.
 
-### Grey 600
+### Grey 500
 
-<ColorSwatch hue="grey" scale="600" />
+<ColorSwatch hue="grey" scale="500" />
 
 The standard opaque colour for grey secondary text labels.
 
@@ -180,26 +180,17 @@ transparent rgba colour for more consistent contrast on
 varying background colours.
 :::
 
+### Grey 600
+
+<ColorSwatch hue="grey" scale="600" />
+
+Regular old grey buttons.
+
+Note: As part of the blue refresh, the grey button background colour is proposed to change to `#8c97a1` (darker and more blueish)
+
 ### Grey 700
 
 <ColorSwatch hue="grey" scale="700" />
-
-Colour for grey buttons in the document previewer.
-
-Note that grey text labels should use a slightly darker grey not 
-defined here: `#748d97`.
-
-### Grey 725
-
-<ColorSwatch hue="grey" scale="725" />
-
-### Grey 775
-
-<ColorSwatch hue="grey" scale="775" />
-
-### Grey 800
-
-<ColorSwatch hue="grey" scale="800" />
 
 Not a UI colour def, but the content colour for grey text and ink annotations.
 
@@ -207,13 +198,16 @@ Not a UI colour def, but the content colour for grey text and ink annotations.
 - used for the outline and checkmark colour when selecting the white colour in the text box options
 - also randomly used to colour the voice note recorder buttons when the voice note save is in progress. a different colour def should be referenced there.
 
-### Grey 900
+## Slate
 
-<ColorSwatch hue="grey" scale="900" />
+### Gull grey
 
-Regular old grey buttons.
+<ColorSwatch hue="slate" scale="xx5" />
 
-Note: As part of the blue refresh, the grey button background colour is proposed to change to `#8c97a1` (darker and more blueish)
+Colour for grey buttons in the document previewer.
+
+Note that grey text labels should use a slightly darker grey not 
+defined here: `#748d97`.
 
 ## Reds
 
