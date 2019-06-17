@@ -662,10 +662,10 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@showbie/eslint-config@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@showbie/eslint-config/-/eslint-config-0.3.1.tgz#9e07fe510350932b61f25cbd11b9c9f490501327"
-  integrity sha512-4tLRnOJszdWSbVxwmAnHXRq1K1AuGltR+N1ukuLt0PT7yXw5ErAQ6sZs3OHaHo24RBD4izuCymYt8uPAmKU26w==
+"@showbie/eslint-config@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@showbie/eslint-config/-/eslint-config-0.3.2.tgz#1da1f8174f083e3fc00e95319c605ecf708fc072"
+  integrity sha512-avD+NXDJReB4Kv6ZvFKeaBTAZnYM5rDpWA9tOE4vPIvmrvRzf1mMyI2ExFnEUKnbhGF5P0n6ekQ9w7VT5mE8+A==
   dependencies:
     prettier-eslint-cli "^4.7.1"
   optionalDependencies:
