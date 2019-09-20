@@ -44,4 +44,3 @@ var colors = {
 }
 
 exports.colors = colors;
-export { colors };
