@@ -76,7 +76,16 @@ export default {
   prefix: 'sbe',
   colors: colors,
 
-  borderRadius: {
+  fontSizes: {
+    xs: '1rem',
+    sm: '1.08334rem',
+    base: '1.25rem',
+    md: '1.4167rem',
+    lg: '1.5rem',
+    xl: '1.75rem',
+  },
+
+  radii: {
     '0': '0',
     '1': '0.25rem',
     '2': '0.5rem',

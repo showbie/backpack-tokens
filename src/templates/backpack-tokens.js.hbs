@@ -1,0 +1,59 @@
+/**
+ *    BACKPACK TOKENS
+ *    v{{version}}
+ */
+{{#if colors}}
+
+var colors = {
+{{~#each colors as |hue|}}
+
+  {{hue.name}}: {
+{{#each hue.scale as |value label|}}
+    {{label}}: '{{value}}',
+{{/each}}
+  },
+{{/each}}
+}
+
+exports.COLORS = colors;
+{{/if}}
+{{#if tokens.fonts}}
+
+var fonts = {
+{{#each tokens.fonts as |value label|}}
+  {{label}}: '{{value}}',
+{{/each}}
+}
+
+exports.FONTS = fonts;
+{{/if}}
+{{#if tokens.fontSizes}}
+
+var sizes = {
+{{#each tokens.fontSizes as |value label|}}
+  {{label}}: '{{value}}',
+{{/each}}
+}
+
+exports.SIZES = sizes;
+{{/if}}
+{{#if tokens.fontWeights}}
+
+var weights = {
+{{#each tokens.fontWeights as |value label|}}
+  {{label}}: '{{value}}',
+{{/each}}
+}
+
+exports.WEIGHTS = weights;
+{{/if}}
+{{#if tokens.radii}}
+
+var radii = {
+{{#each tokens.radii as |value label|}}
+  {{label}}: '{{value}}',
+{{/each}}
+}
+
+exports.RADII = radii;
+{{/if}}
