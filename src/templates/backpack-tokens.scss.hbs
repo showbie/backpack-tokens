@@ -1,0 +1,39 @@
+////
+///   BACKPACK TOKENS
+///   v{{version}}
+////
+{{#if colors}}
+
+////
+///   UI colours
+////
+{{~#each colors as |hue|}}
+
+/// {{capitalize hue.name}}
+{{#each hue.scale as |value label|}}
+${{hue.prefix}}-{{hue.name}}-{{label}}: {{value}};
+{{/each}}{{/each}}{{/if}}
+{{~#if tokens.fonts}}
+
+////
+///   Font families
+////
+{{#each tokens.fonts as |value label|}}
+${{../prefix}}-font-{{label}}: {{value}};
+{{/each}}{{/if}}
+{{~#if tokens.fontSizes}}
+
+////
+///   Typographic scale
+////
+{{#each tokens.fontSizes as |value label|}}
+${{../prefix}}-fs-{{label}}: {{value}};
+{{/each}}{{/if}}
+{{~#if tokens.radii}}
+
+////
+///   Border radius scale
+////
+{{#each tokens.radii as |value label|}}
+${{../prefix}}-br-{{label}}: {{value}};
+{{/each}}{{/if}}
