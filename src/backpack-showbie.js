@@ -24,6 +24,7 @@ export const colors = {
     // xx5: '#90a8b2',
     600: '#8aa4af', // blessed
     800: '',
+    900: '#152024', // blessed
   },
 
   blue: {
