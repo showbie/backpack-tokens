@@ -75,9 +75,14 @@ export const colors = {
   },
 };
 
-colors.slate['900-95'] = chroma(colors.slate['900'])
-  .alpha(0.95)
-  .css();
+colors.slate = {
+  ...colors.slate,
+  ...{
+    '900-95': chroma(colors.slate['900'])
+      .alpha(0.95)
+      .css(),
+  },
+};
 
 export default {
   prefix: 'sbe',
