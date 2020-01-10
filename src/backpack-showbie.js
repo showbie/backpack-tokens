@@ -1,3 +1,5 @@
+import chroma from 'chroma-js';
+
 /**
  * Colours marked "blessed" are in use and confirmed accurate by the
  * design team. Other colours are found in production but unconfirmed.
@@ -72,6 +74,10 @@ export const colors = {
     socrative: '#ff602b',
   },
 };
+
+colors.slate['900-95'] = chroma(colors.slate['900'])
+  .alpha(0.95)
+  .css();
 
 export default {
   prefix: 'sbe',
