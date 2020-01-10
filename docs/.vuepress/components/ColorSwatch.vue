@@ -154,11 +154,15 @@ export default {
       );
       let nearest = nearestColor.from(colorNames);
 
-      return nearest(this.chromaColor.hex()).name;
+      return nearest(this.chromaColor.alpha(1).hex()).name;
     },
 
     swiftVar: function() {
-      return swiftVarName(this.variablePrefix, this.hue, this.scale);
+      return swiftVarName(
+        this.variablePrefix,
+        this.hue,
+        this.scale ? this.scale.replace(/-+/g, '_') : null
+      );
     },
 
     // Determine best foreground colour to use on `color` background.
