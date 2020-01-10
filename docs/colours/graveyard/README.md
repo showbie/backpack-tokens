@@ -65,7 +65,7 @@ this element.
 
 Sign-up TOC footer link is incorrect, should be `color-secondary-dark`.
 
-### G
+### Black feather
 
 ::: warning
 Replace this with `#152024`
